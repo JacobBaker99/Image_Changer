@@ -140,9 +140,6 @@ def sgf(img, x, y, filename):
             new_image.setPixel(col, row, new_pixel)
     return new_image
 
-
-
-
 """ randomly chooses the colors to wash the image in random quads"""
 def random(img, x, y, filename):
     import random
@@ -227,11 +224,6 @@ def random(img, x, y, filename):
             new_pixel = image.Pixel(new_red, new_green, new_blue)
             new_image.setPixel(col, row, new_pixel)
     return new_image
-
-
-
-
-
 
 """the beginning"""
 """Entry point of the application."""
